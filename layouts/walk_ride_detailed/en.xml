@@ -147,7 +147,7 @@
  </row>
  <row>
    <!-- 1 standard tag button & 2 page sub-layouts -->
-   <button type="page" label="Block & Bollard" targetlayout="block_bollard" />
+   <button type="page" label="Block or Bollard" targetlayout="block_bollard" />
    <button type="tag" label="Cattle Grid" />
    <button type="tag" label="Cycle Barrier" />
  </row>
@@ -321,7 +321,7 @@
   </row>
   </layout> 
   
-  <!-- Bollards & Blocks, will be displayed when clicking on "Barriers & Blocks" previous defined button -->
+  <!-- Bollards & Blocks, will be displayed when clicking on "Bollards & Blocks" previous defined button -->
   	<layout name="block_bollard">
   <row>
  <button type="voicerec" icon="voice_32x32.png" />
