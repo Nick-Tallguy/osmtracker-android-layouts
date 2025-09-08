@@ -149,7 +149,7 @@
    <!-- 1 standard tag button & 2 page sub-layouts -->
    <button type="page" label="Block or Bollard" targetlayout="block_bollard" />
    <button type="tag" label="Cattle Grid" />
-   <button type="tag" label="Cycle Barrier" />
+   <button type="tag" label="Cycle Barrier" targetlayout="cycle_barrier"/>
  </row>
  <row>
    <!-- 3 standard tag buttons -->
@@ -313,6 +313,7 @@
  <button type="tag" label="Ramblers Gate" />
  <button type="tag" label="Steadying post Y" icon="walk_ride_detailed_icons/post.png" />
  <button type="tag" label="Steadying post N" icon="walk_ride_detailed_icons/post-no.png" />
+ <button type="tag" label="Dog Gate Y" />
   </row>
   <row>
  <button type="tag" label="Step-up 1" icon="walk_ride_detailed_icons/stile-ladder-400.png" />
@@ -342,6 +343,30 @@
  <button type="tag" label="flexible" />
  <button type="tag" label="single" />
  <button type="tag" label="row" />
+  </row>
+  </layout> 
+    
+  <!-- Cycle Barriers, will be displayed when clicking on "Cycle Barriers" previous defined button -->
+  	<layout name="cycle_barrier">
+  <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+  </row>
+  <row>
+ <button type="tag" label="Cycle Barrier Single" />
+ <button type="tag" label="Cycle Barrier Double"  />
+ <button type="tag" label="Cycle Barrier Triple" />
+  </row>
+  <row>
+ <button type="tag" label="Cycle Barrier Diagonal" />
+ <button type="tag" label="Cycle Barrier Tilted"  />
+ <button type="tag" label="Fixed" />
+  </row>
+  <row>
+ <button type="tag" label="Openable" />
+ <button type="tag" label="Removable" />
+ <button type="tag" label="Foldable" />
   </row>
   </layout> 
   
