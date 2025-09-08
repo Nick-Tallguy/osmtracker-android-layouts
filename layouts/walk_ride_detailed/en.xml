@@ -331,17 +331,17 @@
   <row>
  <button type="tag" label="Bollard" />
  <button type="tag" label="Block"  />
- <button type="tag" label="test" />
+ <button type="tag" label="fixed" />
   </row>
   <row>
- <button type="tag" label="Step-up 1" icon="walk_ride_detailed_icons/stile-ladder-400.png" />
- <button type="tag" label="Step-up 2" icon="walk_ride_detailed_icons/stile-ladder-450.png" />
- <button type="tag" label="Steadying post N" icon="walk_ride_detailed_icons/post-no.png" />
+ <button type="tag" label="removable" />
+ <button type="tag" label="rising"  />
+ <button type="tag" label="foldable" />
   </row>
   <row>
- <button type="tag" label="Step-up 3" icon="walk_ride_detailed_icons/stile-ladder-500.png" />
- <button type="tag" label="Step-up 4" icon="walk_ride_detailed_icons/stile-ladder-550.png" />
- <button type="tag" label="Step-up 5" icon="walk_ride_detailed_icons/stile-ladder-600.png" />
+ <button type="tag" label="flexible" />
+ <button type="tag" label="single" />
+ <button type="tag" label="row" />
   </row>
   </layout> 
   
