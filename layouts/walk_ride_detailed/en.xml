@@ -148,7 +148,7 @@
  <row>
    <!-- 1 standard tag button & 2 page sub-layouts -->
    <button type="page" label="Block & Bollard" targetlayout="block_bollard" />
-   <button type="page" label="Cattle Grid" />
+   <button type="tag" label="Cattle Grid" />
    <button type="tag" label="Cycle Barrier" />
  </row>
  <row>
@@ -161,7 +161,7 @@
    <!-- 3 standard tag buttons -->
    <button type="tag" label="Horse Stile" />
    <button type="tag" label="Kissing_Gate" />
-   <button type="page" label="Stile" />
+   <button type="page" label="Stile" targetlayout="stile" />
  </row>
   </layout>
   
@@ -298,7 +298,7 @@
   </layout> 
   
   <!-- Stiles layout, will be displayed when clicking on "Stepover or Ladder" previous defined button -->
-  	<layout name="stiles">
+  	<layout name="stile">
   <row>
  <button type="voicerec" icon="voice_32x32.png" />
  <button type="picture" icon="camera_32x32.png" />
