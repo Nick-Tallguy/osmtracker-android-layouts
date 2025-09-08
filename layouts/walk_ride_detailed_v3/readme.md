@@ -1,4 +1,4 @@
-Walk Ride Detailed v2
+Walk Ride Detailed v3
 ============
 
 This layout is intended for users updating in detail paths, tracks, cycleways and other routes which are normally travelled on foot, wheelchair, horse or cycle.
@@ -13,9 +13,15 @@ The button sets should assist you with surveying such features as a 'track' whic
 
 *  **LOOKS LIKE** - allows you to chose what the feature looks like, such as a track or a path.  
 *  **DESIGNATION** - if signed, allows you to note the designation displayed.  
-*  **ACCESS** - Who is allowed such as foot=yes, bike=no.  
+*  **ACCESS** - Who is allowed such as Yes, No, Permissive, Private, Discouraged, Customers, Destination, Agricultural.  
 *  **SURFACE** - Asphalt, gravel, grass, etc..  
-*  **BARRIER** - Bollards, gates, kissing-gates, stiles (with buttons for steps up to or down from), etc..   
+*  **BARRIER POINTS** - Bollards, gates, kissing-gates, stiles (with buttons for steps up to or down from), etc..   
+*  **BARRIER LINEAR** - Fence, wall, Ditch, etc..
+*  **BOLLARD - BLOCKS** - Bollard, Block, Fixed, Removable, Foldable, Flexible.
+*  **CYCLE BARRIER**
+*  **KISSING GATE**
+*  **GATE**
+*  **STILE**
 *  **VARIOUS** - Is it lit? Are dogs allowed, are there dog-poo bins? Bench & information boards.  
 *  **WIDTH** - 9 buttons of different options.    
 *  **SOLAR -ERRORS** - Roof PV panels and orientation, and 'Errors' for those moments when you took the wrong fork and want to have a note of this.  
