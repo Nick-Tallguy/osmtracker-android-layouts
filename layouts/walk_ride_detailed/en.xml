@@ -153,12 +153,13 @@
  </row>
  <row>
    <!-- 3 standard tag buttons -->
-   <button type="tag" label="Turnstile" />
+   <button type="page" label="Linear_Barriers" targetlayout="linear_barriers" />
    <button type="tag" label="Entrance" />
    <button type="page" label="Gate" targetlayout="gate" />
  </row>
  <row>
-   <!-- 3 standard tag buttons -->
+   <!-- 4 standard tag buttons -->
+   <button type="tag" label="Turnstile" />
    <button type="tag" label="Horse Stile" />
    <button type="page" label="Kissing_Gate" targetlayout="kissing_gate" />
    <button type="page" label="Stile" targetlayout="stile" />
@@ -415,6 +416,56 @@
  <button type="tag" label="Entrance" />
  <button type="tag" label="Locked Y" />
  <button type="tag" label="Locked N" />
+  </row>
+  </layout> 
+       
+  <!-- Linear Barriers, will be displayed when clicking on "Linear Barriers" previous defined button -->
+  	<layout name="linear_barriers">
+  <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+  </row>
+  <row>
+ <button type="tag" label="Cable Barrier" />
+ <button type="tag" label="City Wall"  />
+ <button type="tag" label="Ditch" />
+  </row>
+  <row>
+ <button type="tag" label="Guard_Rail" />
+ <button type="tag" label="Handrail"  />
+ <button type="tag" label="Hedge" />
+  </row>
+  <row>
+ <button type="tag" label="Retaining_Wall />
+ <button type="tag" label="Wall" />
+ <button type="page" label="Fence_Type" targetlayout="fence_type" />
+  </row>
+  </layout> 
+  
+  <!-- Fence Types, will be displayed when clicking on "Fence_Type" previous defined button -->
+  	<layout name="fence_type">
+  <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+  </row>
+  <row>
+ <button type="tag" label="Barbed Wire Fence" />
+ <button type="tag" label="Fence bars"  />
+ <button type="tag" label="Chain Link Fence" />
+  </row>
+  <row>
+ <button type="tag" label="Corrugated Metal Fence" />
+ <button type="tag" label="Electric Fence"  />
+ <button type="tag" label="Paling Fence" />
+ <button type="tag" label="Wire Fence" />
+  </row>
+  <row>
+ <button type="tag" label="Panel Fence />
+ <button type="tag" label="Pole Fence" />
+ <button type="tag" label="Railing Fence"  />
+ <button type="tag" label="Wooden Fence" />
   </row>
   </layout> 
   
