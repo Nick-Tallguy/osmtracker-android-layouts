@@ -106,9 +106,9 @@
  </row>
  <row>
  <button type="tag" label="Agricultural" />
- <button type="tag" label="Forestry" icon="walk_ride_detailed_icons/car-N.png" />
- <button type="tag" label="Delivery" icon="walk_ride_detailed_icons/coach-Y.png" />
- <button type="tag" label="Military" icon="walk_ride_detailed_icons/coach-N.png" />
+ <button type="tag" label="Forestry" />
+ <button type="tag" label="Delivery" />
+ <button type="tag" label="Military" />
  </row>
   </layout>
   <!-- Surface layout, will be displayed when clicking on "Surface" previous defined button -->
