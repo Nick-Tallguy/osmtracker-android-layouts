@@ -452,7 +452,7 @@
   </row>
   <row>
  <button type="tag" label="Barbed Wire Fence" />
- <button type="tag" label="Fence bars"  />
+ <button type="tag" label="Fence bars" />
  <button type="tag" label="Chain Link Fence" />
   </row>
   <row>
@@ -464,7 +464,7 @@
   <row>
  <button type="tag" label="Panel Fence" />
  <button type="tag" label="Pole Fence" />
- <button type="tag" label="Railing Fence"  />
+ <button type="tag" label="Railing Fence" />
  <button type="tag" label="Wooden Fence" />
   </row>
   </layout> 
