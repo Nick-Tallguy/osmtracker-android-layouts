@@ -160,7 +160,7 @@
  <row>
    <!-- 3 standard tag buttons -->
    <button type="tag" label="Horse Stile" />
-   <button type="tag" label="Kissing_Gate" />
+   <button type="page" label="Kissing_Gate" targetlayout="kissing_gate" />
    <button type="page" label="Stile" targetlayout="stile" />
  </row>
   </layout>
@@ -367,6 +367,30 @@
  <button type="tag" label="Openable" />
  <button type="tag" label="Removable" />
  <button type="tag" label="Foldable" />
+  </row>
+  </layout>   
+    
+  <!-- Kissing_Gates, will be displayed when clicking on "Kissing_Gate" previous defined button -->
+  	<layout name="kissing_gate">
+  <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+  </row>
+  <row>
+ <button type="tag" label="Kissing_Gate_Triangular" />
+ <button type="tag" label="Kissing_Gate_Circular"  />
+ <button type="tag" label="Kissing_Gate_Large_Circular" />
+  </row>
+  <row>
+ <button type="tag" label="Kissing_Gate_Square" />
+ <button type="tag" label="Kissing_Gate_Large_Square"  />
+ <button type="tag" label="Kissing_Gate_Central_Pivot" />
+  </row>
+  <row>
+ <button type="tag" label="Radar_Key_Y" />
+ <button type="tag" label="Wood" />
+ <button type="tag" label="Metal" />
   </row>
   </layout> 
   
