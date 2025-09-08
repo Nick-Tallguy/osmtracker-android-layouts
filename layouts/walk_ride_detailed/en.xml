@@ -437,7 +437,7 @@
  <button type="tag" label="Hedge" />
   </row>
   <row>
- <button type="tag" label="Retaining_Wall />
+ <button type="tag" label="Retaining_Wall" />
  <button type="tag" label="Wall" />
  <button type="page" label="Fence_Type" targetlayout="fence_type" />
   </row>
@@ -462,7 +462,7 @@
  <button type="tag" label="Wire Fence" />
   </row>
   <row>
- <button type="tag" label="Panel Fence />
+ <button type="tag" label="Panel Fence" />
  <button type="tag" label="Pole Fence" />
  <button type="tag" label="Railing Fence"  />
  <button type="tag" label="Wooden Fence" />
