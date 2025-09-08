@@ -147,21 +147,21 @@
  </row>
  <row>
    <!-- 1 standard tag button & 2 page sub-layouts -->
-   <button type="page" label="Stepover" icon="walk_ride_detailed_icons/stile-stepover.png" targetlayout="styles" />
-   <button type="tag" label="stile Squeeze" icon="walk_ride_detailed_icons/stile-squeeze.png" />
-   <button type="page" label="Ladder" icon="walk_ride_detailed_icons/stile-ladder.png" targetlayout="styles" />
+   <button type="page" label="Block & Bollard" targetlayout="block_bollard" />
+   <button type="page" label="Cattle Grid" />
+   <button type="tag" label="Cycle Barrier" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
-   <button type="tag" label="kissing gate" icon="walk_ride_detailed_icons/kissing-gate.png" />
-   <button type="tag" label="gate" icon="walk_ride_detailed_icons/narrow-gate.png" />
-   <button type="tag" label="3m gate" icon="walk_ride_detailed_icons/gate.png" />
+   <button type="tag" label="Turnstile" />
+   <button type="tag" label="Entrance" />
+   <button type="tag" label="Gate" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
-   <button type="tag" label="cycle" icon="walk_ride_detailed_icons/cycle-barrier.png" />
-   <button type="tag" label="wood" icon="walk_ride_detailed_icons/wood.png" />
-   <button type="tag" label="metal" icon="walk_ride_detailed_icons/robot.png" />
+   <button type="tag" label="Horse Stile" />
+   <button type="tag" label="Kissing_Gate" />
+   <button type="page" label="Stile" />
  </row>
   </layout>
   
@@ -298,7 +298,7 @@
   </layout> 
   
   <!-- Stiles layout, will be displayed when clicking on "Stepover or Ladder" previous defined button -->
-  	<layout name="styles">
+  	<layout name="stiles">
   <row>
  <button type="voicerec" icon="voice_32x32.png" />
  <button type="picture" icon="camera_32x32.png" />
@@ -320,4 +320,29 @@
  <button type="tag" label="Step-up 5" icon="walk_ride_detailed_icons/stile-ladder-600.png" />
   </row>
   </layout> 
+  
+  <!-- Bollards & Blocks, will be displayed when clicking on "Barriers & Blocks" previous defined button -->
+  	<layout name="block_bollard">
+  <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+  </row>
+  <row>
+ <button type="tag" label="Bollard" />
+ <button type="tag" label="Block"  />
+ <button type="tag" label="test" />
+  </row>
+  <row>
+ <button type="tag" label="Step-up 1" icon="walk_ride_detailed_icons/stile-ladder-400.png" />
+ <button type="tag" label="Step-up 2" icon="walk_ride_detailed_icons/stile-ladder-450.png" />
+ <button type="tag" label="Steadying post N" icon="walk_ride_detailed_icons/post-no.png" />
+  </row>
+  <row>
+ <button type="tag" label="Step-up 3" icon="walk_ride_detailed_icons/stile-ladder-500.png" />
+ <button type="tag" label="Step-up 4" icon="walk_ride_detailed_icons/stile-ladder-550.png" />
+ <button type="tag" label="Step-up 5" icon="walk_ride_detailed_icons/stile-ladder-600.png" />
+  </row>
+  </layout> 
+  
 </layouts>
