@@ -93,22 +93,22 @@
  <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
- <button type="tag" label="Foot Y" icon="walk_ride_detailed_icons/foot-Y.png" />
- <button type="tag" label="Foot N" icon="walk_ride_detailed_icons/foot-N.png" />
- <button type="tag" label="Bike Y" icon="walk_ride_detailed_icons/bike-Y.png" />
- <button type="tag" label="Bike N" icon="walk_ride_detailed_icons/bike-N.png" />
+ <button type="tag" label="Yes" />
+ <button type="tag" label="No"  />
+ <button type="tag" label="Permissive" />
+ <button type="tag" label="Private" />
  </row>
  <row>
- <button type="tag" label="Horse Y" icon="walk_ride_detailed_icons/horse-Y.png" />
- <button type="tag" label="Horse N" icon="walk_ride_detailed_icons/horse-N.png" />
- <button type="tag" label="Mcycle Y" icon="walk_ride_detailed_icons/mcycle-Y.png" />
- <button type="tag" label="Mcycle N" icon="walk_ride_detailed_icons/mcycle-N.png" />
+ <button type="tag" label="Designated" />
+ <button type="tag" label="Discouraged" />
+ <button type="tag" label="Customers"  />
+ <button type="tag" label="Destination" />
  </row>
  <row>
- <button type="tag" label="Car Y" icon="walk_ride_detailed_icons/car-Y.png" />
- <button type="tag" label="Car N" icon="walk_ride_detailed_icons/car-N.png" />
- <button type="tag" label="Coach Y" icon="walk_ride_detailed_icons/coach-Y.png" />
- <button type="tag" label="Coach N" icon="walk_ride_detailed_icons/coach-N.png" />
+ <button type="tag" label="Agricultural" />
+ <button type="tag" label="Forestry" icon="walk_ride_detailed_icons/car-N.png" />
+ <button type="tag" label="Delivery" icon="walk_ride_detailed_icons/coach-Y.png" />
+ <button type="tag" label="Military" icon="walk_ride_detailed_icons/coach-N.png" />
  </row>
   </layout>
   <!-- Surface layout, will be displayed when clicking on "Surface" previous defined button -->
