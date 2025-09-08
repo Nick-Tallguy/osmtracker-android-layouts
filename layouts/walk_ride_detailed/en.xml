@@ -155,7 +155,7 @@
    <!-- 3 standard tag buttons -->
    <button type="tag" label="Turnstile" />
    <button type="tag" label="Entrance" />
-   <button type="tag" label="Gate" />
+   <button type="page" label="Gate" targetlayout="gate" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
@@ -391,6 +391,30 @@
  <button type="tag" label="Radar_Key_Y" />
  <button type="tag" label="Wood" />
  <button type="tag" label="Metal" />
+  </row>
+  </layout> 
+     
+  <!-- Gates, will be displayed when clicking on "Gate" previous defined button -->
+  	<layout name="gate">
+  <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+  </row>
+  <row>
+ <button type="tag" label="Gate" />
+ <button type="tag" label="Wicket Gate"  />
+ <button type="tag" label="Lift Gate" />
+  </row>
+  <row>
+ <button type="tag" label="Swing Gate" />
+ <button type="tag" label="Sliding Gate"  />
+ <button type="tag" label="Bump Gate" />
+  </row>
+  <row>
+ <button type="tag" label="Entrance" />
+ <button type="tag" label="Locked Y" />
+ <button type="tag" label="Locked N" />
   </row>
   </layout> 
   
