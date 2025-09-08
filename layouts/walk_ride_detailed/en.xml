@@ -149,7 +149,7 @@
    <!-- 1 standard tag button & 2 page sub-layouts -->
    <button type="page" label="Block or Bollard" targetlayout="block_bollard" />
    <button type="tag" label="Cattle Grid" />
-   <button type="tag" label="Cycle Barrier" targetlayout="cycle_barrier"/>
+   <button type="page" label="Cycle Barrier" targetlayout="cycle_barrier"/>
  </row>
  <row>
    <!-- 3 standard tag buttons -->
