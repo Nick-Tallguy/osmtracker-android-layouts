@@ -122,6 +122,7 @@
  <button type="tag" label="asphalt" icon="walk_ride_detailed_icons/asphalt.png" />
  <button type="tag" label="boardwalk" icon="walk_ride_detailed_icons/brown-layers.png" />
  <button type="tag" label="brick" icon="walk_ride_detailed_icons/layers.png" />
+ <button type="tag" label="compacted" />
  <button type="tag" label="concrete" icon="walk_ride_detailed_icons/concrete.png" />
  </row>
  <row>
